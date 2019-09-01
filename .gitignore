@@ -1,0 +1,20 @@
+# Codeigniter .gitignore
+application/cache/*
+application/cache/ci_session/*
+application/cache/twig/*
+application/logs/*
+!application/*/.htaccess
+!application/cache/index.html
+!application/cache/ci_session/
+!application/cache/ci_session/index.html
+!application/cache/twig/
+!application/cache/twig/index.html
+!application/logs/index.html
+
+# Application .gitignore
+
+node_modules/
+application/vendor/
+composer.lock
+package-lock.json
+assets/dist/
