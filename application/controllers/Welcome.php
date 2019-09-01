@@ -18,8 +18,30 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	/**
+	 * default codeigniter
+	 */
 	public function index()
 	{
 		$this->load->view('welcome_message');
+	}
+
+	/**
+	 * display view with twig
+	 */
+	public function twig()
+	{
+		$data['elapsed_time'] = $this->benchmark->elapsed_time();
+		$this->load->twig('welcome_twig',$data);
+	}
+
+	/**
+	 * display view with react
+	 */
+	public function react()
+	{
+		$data['elapsed_time'] = $this->benchmark->elapsed_time();
+		$this->load->twig('welcome_react',$data);
 	}
 }

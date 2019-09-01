@@ -1,0 +1,12 @@
+{% extends 'base_template.twig' %}
+
+{% block title %} Welcome to Codeigniter + ReactJs {% endblock %}
+
+
+{% block content %}
+	<div id="root"></div>
+{% endblock %}
+
+{% block javascript %}
+	<script type="text/javascript" src="{{ base_url('assets/dist/js/app.bundle.js') }}"></script>
+{% endblock %}
