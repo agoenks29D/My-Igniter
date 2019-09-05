@@ -33,6 +33,7 @@ class Welcome extends CI_Controller {
 	public function twig()
 	{
 		$data['elapsed_time'] = $this->benchmark->elapsed_time();
+		$data['subtitle'] = 'MY Igniter (Codeigniter + Twig)';
 		$this->load->twig('welcome_twig',$data);
 	}
 
@@ -42,6 +43,7 @@ class Welcome extends CI_Controller {
 	public function react()
 	{
 		$data['elapsed_time'] = $this->benchmark->elapsed_time();
+		$data['subtitle'] = 'MY Igniter (Codeigniter + Twig + React)';
 		$this->load->twig('welcome_react',$data);
 	}
 }
