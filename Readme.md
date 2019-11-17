@@ -38,15 +38,15 @@ cd assets/ && webpack --mode=development
 
 ### Social Media : 
 
-<a class="social_link" href="fb.me/agoenks29D">
+<a class="social_link" href="https://fb.me/agoenks29D">
 	<img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" width="32" style="margin-bottom: 2px;">
 </a>
 
-<a class="social_link" href="instragram.com/agoenks29D">
+<a class="social_link" href="https://instragram.com/agoenks29D">
 	<img src="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico" width="32">
 </a>
 
-<a class="social_link" href="t.me/agoenks29D">
+<a class="social_link" href="https://t.me/agoenks29D">
 	<img src="https://web.telegram.org/favicon.ico" width="32">
 </a>
 
